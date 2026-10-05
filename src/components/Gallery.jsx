@@ -34,7 +34,7 @@ const galleryData = [
   {
     id: 4,
     title: 'Tribal Stitch Cornrows & Gold Hair Cuffs',
-    category: 'Braids',
+    category: 'Cornrows',
     price: '£60',
     desc: 'Architectural feed-in stitch cornrows embellished with embossed metallic gold jewelry cuffs and beads.',
     image: ladiesBraids4,
@@ -49,10 +49,10 @@ const galleryData = [
   },
   {
     id: 6,
-    title: 'Velvet Silk Press & High-Gloss Glaze',
-    category: 'Styling',
-    price: '£65',
-    desc: 'Ultra-reflective thermal seal with glass hair fluidity, maximum movement, split-end trim, and healthy edges.',
+    title: 'Goddess Bohemian Crochet Curls & Locs',
+    category: 'Crochet',
+    price: '£50',
+    desc: 'Lightweight seamless crochet installation with soft voluminous goddess curls, protective cornrow foundation, and pristine hairline blend.',
     image: 'https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=800&q=80',
   },
   {
@@ -65,10 +65,10 @@ const galleryData = [
   },
   {
     id: 8,
-    title: 'Hollywood Sunset Dimensional Waves',
-    category: 'Styling',
-    price: '£90',
-    desc: 'Golden honey highlights and voluminous bouncy barrel curls with heat-defense shield and shine mist.',
+    title: 'Sculpted Feed-in Designer Cornrows',
+    category: 'Cornrows',
+    price: '£60',
+    desc: 'Precision architectural feed-in cornrows with intricate curved partings, golden cuff accents, and baby-hair edge styling.',
     image: 'https://images.unsplash.com/photo-1519699047748-de8e457a634e?auto=format&fit=crop&w=800&q=80',
   },
 ];
@@ -77,7 +77,7 @@ export default function Gallery({ onOpenBooking, isPage = false }) {
   const [filter, setFilter] = useState('All');
   const [selectedPhoto, setSelectedPhoto] = useState(null);
 
-  const categories = ['All', 'Braids', 'Styling', 'Bridal', 'Lace & Wigs'];
+  const categories = ['All', 'Braids', 'Cornrows', 'Crochet', 'Bridal', 'Lace & Wigs'];
 
   const filteredItems = filter === 'All'
     ? galleryData

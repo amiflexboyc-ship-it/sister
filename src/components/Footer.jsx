@@ -53,7 +53,7 @@ export default function Footer() {
             </Link>
 
             <p className="text-xs text-[#a99d8b] leading-relaxed max-w-sm">
-              Essex & London’s premier luxury hair atelier. Defining modern elegance through bespoke haircuts, master knotless braiding, royal bridal transformations, and holistic scalp therapy.
+              Essex & London’s premier luxury hair atelier. Defining modern elegance through artisanal cornrows, luxury crochet styling, master knotless braiding, and royal bridal transformations.
             </p>
 
             {/* Newsletter */}
@@ -118,24 +118,20 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2.5 text-xs text-[#cdc1b0]">
               <li className="flex justify-between items-center pr-4">
-                <span>Precision Cut & Scalp Ritual</span>
+                <span>Signature Feed-In Cornrows</span>
+                <span className="text-[#f5d77f] font-semibold">£60</span>
+              </li>
+              <li className="flex justify-between items-center pr-4">
+                <span>Luxury Crochet Braids & Curls</span>
                 <span className="text-[#f5d77f] font-semibold">£50</span>
               </li>
               <li className="flex justify-between items-center pr-4">
-                <span>Imperial Knotless Braids</span>
+                <span>Imperial Knotless & Boho Braids</span>
                 <span className="text-[#f5d77f] font-semibold">£80</span>
-              </li>
-              <li className="flex justify-between items-center pr-4">
-                <span>Velvet Silk Press & Steam</span>
-                <span className="text-[#f5d77f] font-semibold">£65</span>
               </li>
               <li className="flex justify-between items-center pr-4">
                 <span>Haute Bridal Crown Glam</span>
                 <span className="text-[#f5d77f] font-semibold">£100</span>
-              </li>
-              <li className="flex justify-between items-center pr-4">
-                <span>24K Gold Scalp Detox</span>
-                <span className="text-[#f5d77f] font-semibold">£50</span>
               </li>
             </ul>
           </div>

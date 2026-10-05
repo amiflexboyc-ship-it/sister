@@ -34,13 +34,16 @@ export default function Hero({ onOpenBooking }) {
 
             {/* Subtitle */}
             <p className="text-base sm:text-lg text-[#cdc1b0] max-w-2xl mx-auto lg:mx-0 font-light leading-relaxed">
-              Step into an enclave of dark luxury and bespoke hair styling. From crisp precision haircuts and celestial knotless braids to flawless bridal transformations, we craft beauty with imperial perfection.
+              Step into an enclave of dark luxury and bespoke hair styling. From intricate artisanal cornrows and celestial knotless braids to luxury crochet styling and bridal transformations, we craft beauty with imperial perfection.
             </p>
 
             {/* Service Price Quick-Glance */}
             <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3 pt-2">
               <div className="px-3.5 py-1.5 rounded-lg border border-[#d4af37]/20 bg-[#120f0a]/70 text-xs text-[#ded3c3]">
-                Haircuts from <span className="text-[#f5d77f] font-semibold">£50</span>
+                Cornrows from <span className="text-[#f5d77f] font-semibold">£60</span>
+              </div>
+              <div className="px-3.5 py-1.5 rounded-lg border border-[#d4af37]/20 bg-[#120f0a]/70 text-xs text-[#ded3c3]">
+                Crochet from <span className="text-[#f5d77f] font-semibold">£50</span>
               </div>
               <div className="px-3.5 py-1.5 rounded-lg border border-[#d4af37]/20 bg-[#120f0a]/70 text-xs text-[#ded3c3]">
                 Braids from <span className="text-[#f5d77f] font-semibold">£80</span>

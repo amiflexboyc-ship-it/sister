@@ -6,7 +6,7 @@ import { servicesData } from '../data/servicesData';
 export default function Services({ onSelectService, onOpenBooking, isPage = false }) {
   const [activeCategory, setActiveCategory] = useState('All');
 
-  const categories = ['All', 'Haircut', 'Braids', 'Bridal', 'Styling', 'Spa'];
+  const categories = ['All', 'Braids', 'Cornrows', 'Crochet', 'Bridal'];
 
   const filteredServices = activeCategory === 'All'
     ? servicesData

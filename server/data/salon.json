@@ -3,7 +3,7 @@
     {
       "id": "b-1791034744413",
       "refCode": "AG-698239",
-      "serviceId": "haircut",
+      "serviceId": "braids",
       "serviceName": "Imperial Knotless & Boho Braids",
       "price": "£80",
       "numericPrice": 80,
@@ -37,17 +37,17 @@
     {
       "id": "b-102",
       "refCode": "AG-914205",
-      "serviceId": "haircut",
-      "serviceName": "Precision Haircut & Scalp Ritual",
-      "price": "£50",
-      "numericPrice": 50,
+      "serviceId": "cornrows",
+      "serviceName": "Signature Feed-In Cornrows",
+      "price": "£60",
+      "numericPrice": 60,
       "date": "2026-10-04",
       "time": "02:30 PM",
-      "stylist": "Tobi Fade - Master Barber",
+      "stylist": "Zainab Cole - Cornrow & Crochet Artisan",
       "name": "Chinedu Eze",
       "phone": "+44 7712 345678",
       "email": "chinedu.eze@outlook.co.uk",
-      "notes": "Low taper fade with razor beard line-up.",
+      "notes": "6-8 stitch feed-in cornrows with sleek finish.",
       "status": "pending",
       "createdAt": "2026-10-03T05:12:03.880Z"
     },
@@ -71,17 +71,17 @@
     {
       "id": "b-104",
       "refCode": "AG-241088",
-      "serviceId": "spa",
-      "serviceName": "24K Gold Scalp Detox & Massage",
+      "serviceId": "crochet",
+      "serviceName": "Luxury Crochet Braids & Curls",
       "price": "£50",
       "numericPrice": 50,
       "date": "2026-10-04",
       "time": "04:00 PM",
-      "stylist": "Any Available Master Artisan",
+      "stylist": "Zainab Cole - Cornrow & Crochet Artisan",
       "name": "Victoria Johnson",
       "phone": "+44 7456 789012",
       "email": "vicky.j@gmail.com",
-      "notes": "Sensitive scalp treatment.",
+      "notes": "Bohemian wavy crochet install.",
       "status": "pending",
       "createdAt": "2026-10-03T08:12:03.880Z"
     }
@@ -116,7 +116,7 @@
       "email": "temi@alabi.co.uk",
       "location": "Westcliff-on-Sea Salon (SS0 8AW, Essex)",
       "subject": "VIP Monthly Membership Inquiry",
-      "message": "Interested in the Gold Member Club for monthly knotless braids and scalp detox in Southend.",
+      "message": "Interested in the Gold Member Club for monthly knotless braids and crochet styling in Southend.",
       "status": "read",
       "createdAt": "2026-10-01T09:12:03.880Z"
     }

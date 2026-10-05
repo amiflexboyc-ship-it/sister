@@ -11,7 +11,7 @@ const MIN_DATE = new Date().toISOString().split('T')[0];
 
 export default function Booking({ selectedServicePreset, onClose, isModal = false }) {
   const [selectedService, setSelectedService] = useState(
-    selectedServicePreset ? selectedServicePreset.id : 'haircut'
+    selectedServicePreset ? selectedServicePreset.id : 'braids'
   );
   const [prevPreset, setPrevPreset] = useState(selectedServicePreset);
 
@@ -338,11 +338,11 @@ export default function Booking({ selectedServicePreset, onClose, isModal = fals
                   <option value="Amara Vance - Lead Creative Director" className="bg-[#120f0a] text-white">
                     Amara Vance — Lead Creative Director (Haute Styling & Bridal)
                   </option>
-                  <option value="Tobi Fade - Master Barber" className="bg-[#120f0a] text-white">
-                    Tobi Fade — Master Precision Barber & Groomer
+                  <option value="Zainab Cole - Cornrow & Crochet Artisan" className="bg-[#120f0a] text-white">
+                    Zainab Cole — Cornrow & Luxury Crochet Artisan
                   </option>
                   <option value="Miriam K. - Braiding Specialist" className="bg-[#120f0a] text-white">
-                    Miriam K. — Braiding & Cornrow Artisan
+                    Miriam K. — Master Knotless & Boho Braiding Specialist
                   </option>
                 </select>
               </div>

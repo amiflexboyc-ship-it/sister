@@ -6,13 +6,13 @@ export default function Prices({ onOpenBooking }) {
 
   const priceSections = [
     {
-      title: 'Precision Cuts & Grooming',
+      title: 'Artisanal Cornrows & Crochet',
       icon: Crown,
       items: [
-        { name: 'Signature Precision Haircut', price: '£50', note: 'Shear/clipper contour, razor edge, organic scalp hydration' },
-        { name: 'Beard Sculpting & Hot Eucalyptus Towel', price: '£30', note: 'Botanical steam, shaping & golden beard butter' },
-        { name: 'Royal Executive Combo (Haircut + Beard + Detox)', price: '£75', note: 'Complete head & beard rejuvenation ritual' },
-        { name: 'Gentle Children & Baby Haircare', price: '£40', note: 'Ages 12 and under with gentle protective styling & beads' },
+        { name: 'Signature Feed-In Cornrows', price: '£60', note: 'Clean geometric parting, gentle root tension, golden cuffs included' },
+        { name: 'Luxury Crochet Braids & Curls', price: '£50', note: 'Flat protective cornrow base with voluminous curls or pre-looped locs' },
+        { name: 'Tribal Stitch Cornrows (4-8 Lines)', price: '£60', note: 'Razor-sharp precision with metallic gold jewelry cuffs and beads' },
+        { name: 'Gentle Children & Baby Cornrows', price: '£40', note: 'Ages 12 and under with gentle protective styling & beads' },
       ],
     },
     {
@@ -21,18 +21,18 @@ export default function Prices({ onOpenBooking }) {
       items: [
         { name: 'Knotless Braids (Standard / Mid-Back)', price: '£80', note: 'Featherlight weight with clean geometric parts' },
         { name: 'Goddess / Bohemian Braids (Curly Ends)', price: '£95', note: 'Organic human hair curl insertions included' },
-        { name: 'Tribal Stitch Cornrows (4-8 Lines)', price: '£60', note: 'Razor-sharp precision with gold accessories' },
+        { name: 'French Curl Ombre Bouncy Braids', price: '£90', note: 'Spiral curl ends in warm chestnut and golden ombre' },
         { name: 'HD Lace Frontal Install & Melt', price: '£85', note: 'Invisible scalp tinting, bleach knots & baby hair' },
       ],
     },
     {
-      title: 'Haute Bridal & Spa Rituals',
+      title: 'Haute Bridal & Crown Suites',
       icon: Star,
       items: [
         { name: 'Imperial Bridal Crown Glam Suite', price: '£100', note: 'Trial session, lace melt, veil setting & emergency kit' },
-        { name: 'Velvet Silk Press & Deep Steam Bath', price: '£65', note: 'Moisture infusing ozone steam, split-end trim' },
-        { name: '24K Colloidal Gold Scalp Detox & Massage', price: '£50', note: 'Micro-exfoliation and acupressure therapy' },
-        { name: 'Custom Balayage & Plex Bond Rebuilder', price: '£90', note: 'Multi-dimensional golden highlights & gloss toner' },
+        { name: 'Bridal Party Styling Suite', price: '£180', note: 'Dedicated session for bride and bridal party' },
+        { name: 'Boho Goddess Crown Updo', price: '£85', note: 'Sculpted protective updo with curly tendrils' },
+        { name: 'Perimeter Braid & Cornrow Refresh', price: '£35', note: 'Edge touch-up, root oiling & hairline shine mist' },
       ],
     },
   ];
@@ -43,10 +43,10 @@ export default function Prices({ onOpenBooking }) {
       price: '£150',
       period: 'per month',
       badge: 'Most Popular',
-      desc: 'Ideal for regular stylers who value priority booking and pristine upkeep in Essex.',
+      desc: 'Ideal for regular protective stylers who value priority booking and pristine upkeep in Essex.',
       features: [
-        '3 Precision Haircuts or 1 Complete Braiding session monthly',
-        'Complimentary Scalp Detox wash on every visit',
+        '2 Complete Cornrow, Crochet, or Braiding sessions monthly',
+        'Complimentary root hydration wash on every visit',
         '15% discount on all take-home hair care products',
         'Priority scheduling & weekend VIP slot holds',
       ],
@@ -56,11 +56,11 @@ export default function Prices({ onOpenBooking }) {
       price: '£380',
       period: 'per quarter',
       badge: 'Elite Luxury',
-      desc: 'Full-service grooming concierge for discerning individuals, brides, and top professionals.',
+      desc: 'Full-service braiding and styling concierge for brides, professionals, and queens.',
       features: [
-        'Unlimited Precision Haircuts & Beard grooming',
-        '1 Premium Braiding or Silk Press session every month',
-        'Private VIP Acoustic Suite with complimentary champagne',
+        'Unlimited Cornrow touch-ups & Crochet maintenance',
+        '1 Premium Knotless Braiding or Bridal Crown session every month',
+        'Private VIP Acoustic Suite with complimentary refreshments',
         'Direct 24/7 WhatsApp concierge booking (+44 7848 998911)',
         'Exclusive invitations to atelier product launches',
       ],
