@@ -1,0 +1,136 @@
+{
+  "bookings": [
+    {
+      "id": "b-1791034744413",
+      "refCode": "AG-698239",
+      "serviceId": "haircut",
+      "serviceName": "Imperial Knotless & Boho Braids",
+      "price": "£80",
+      "numericPrice": 80,
+      "date": "2026-10-06",
+      "time": "11:00 AM",
+      "stylist": "Miriam K. — Braiding Specialist",
+      "name": "Princess Davies",
+      "phone": "+44 7848 998911",
+      "email": "princess@luxuryhair.uk",
+      "notes": "Mid-back length, bohemian curly ends.",
+      "status": "pending",
+      "createdAt": "2026-10-03T13:39:04.413Z"
+    },
+    {
+      "id": "b-101",
+      "refCode": "AG-782194",
+      "serviceId": "braids",
+      "serviceName": "Imperial Knotless & Boho Braids",
+      "price": "£80",
+      "numericPrice": 80,
+      "date": "2026-10-04",
+      "time": "11:00 AM",
+      "stylist": "Miriam K. — Braiding Specialist",
+      "name": "Oluwaseun Adeleke",
+      "phone": "+44 7848 998911",
+      "email": "seun@luxuryhair.uk",
+      "notes": "Mid-back length, bohemian curly ends.",
+      "status": "confirmed",
+      "createdAt": "2026-10-03T07:12:03.880Z"
+    },
+    {
+      "id": "b-102",
+      "refCode": "AG-914205",
+      "serviceId": "haircut",
+      "serviceName": "Precision Haircut & Scalp Ritual",
+      "price": "£50",
+      "numericPrice": 50,
+      "date": "2026-10-04",
+      "time": "02:30 PM",
+      "stylist": "Tobi Fade - Master Barber",
+      "name": "Chinedu Eze",
+      "phone": "+44 7712 345678",
+      "email": "chinedu.eze@outlook.co.uk",
+      "notes": "Low taper fade with razor beard line-up.",
+      "status": "pending",
+      "createdAt": "2026-10-03T05:12:03.880Z"
+    },
+    {
+      "id": "b-103",
+      "refCode": "AG-553108",
+      "serviceId": "bridal",
+      "serviceName": "Imperial Bridal Crown & Glam Suite",
+      "price": "£100",
+      "numericPrice": 100,
+      "date": "2026-10-05",
+      "time": "09:00 AM",
+      "stylist": "Nafisat Adebayo - Lead Creative Director",
+      "name": "Fatima Adeleke",
+      "phone": "+44 7901 234567",
+      "email": "fatima.adeleke@events.uk",
+      "notes": "Pre-wedding consultation & HD lace installation trial in Essex.",
+      "status": "confirmed",
+      "createdAt": "2026-10-02T09:12:03.880Z"
+    },
+    {
+      "id": "b-104",
+      "refCode": "AG-241088",
+      "serviceId": "spa",
+      "serviceName": "24K Gold Scalp Detox & Massage",
+      "price": "£50",
+      "numericPrice": 50,
+      "date": "2026-10-04",
+      "time": "04:00 PM",
+      "stylist": "Any Available Master Artisan",
+      "name": "Victoria Johnson",
+      "phone": "+44 7456 789012",
+      "email": "vicky.j@gmail.com",
+      "notes": "Sensitive scalp treatment.",
+      "status": "pending",
+      "createdAt": "2026-10-03T08:12:03.880Z"
+    }
+  ],
+  "messages": [
+    {
+      "id": "m-1791034744439",
+      "name": "Victoria Johnson",
+      "phone": "+44 7848 998911",
+      "email": "vicky@luxury.co.uk",
+      "location": "Westcliff-on-Sea Salon (SS0 8AW, Essex)",
+      "subject": "Bridal Suite Inquiry",
+      "message": "Looking for a private session in Westcliff on Saturday.",
+      "status": "unread",
+      "createdAt": "2026-10-03T13:39:04.439Z"
+    },
+    {
+      "id": "m-201",
+      "name": "Zainab Ahmed",
+      "phone": "+44 7848 998911",
+      "email": "zainab@gmail.com",
+      "location": "Westcliff-on-Sea Salon (SS0 8AW, Essex)",
+      "subject": "Bridal Party Inquiry (Bride & Baby/Toddler)",
+      "message": "Hello, we are planning a wedding and want full hair styling for the bride and gentle braids with beads for our toddler daughter. Do you have a private suite available in Westcliff?",
+      "status": "unread",
+      "createdAt": "2026-10-03T06:12:03.880Z"
+    },
+    {
+      "id": "m-202",
+      "name": "Mrs. Temi Alabi",
+      "phone": "+44 7823 456789",
+      "email": "temi@alabi.co.uk",
+      "location": "Westcliff-on-Sea Salon (SS0 8AW, Essex)",
+      "subject": "VIP Monthly Membership Inquiry",
+      "message": "Interested in the Gold Member Club for monthly knotless braids and scalp detox in Southend.",
+      "status": "read",
+      "createdAt": "2026-10-01T09:12:03.880Z"
+    }
+  ],
+  "subscribers": [
+    {
+      "id": "s-1",
+      "email": "nafisatadebayo811@gmail.com",
+      "createdAt": "2026-09-30T09:12:03.880Z"
+    },
+    {
+      "id": "s-2",
+      "email": "vip.client@southend.co.uk",
+      "createdAt": "2026-09-28T09:12:03.880Z"
+    }
+  ]
+}
