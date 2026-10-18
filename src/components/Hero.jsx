@@ -100,35 +100,31 @@ export default function Hero({ onOpenBooking }) {
               <div className="absolute -inset-3 rounded-3xl bg-gradient-to-tr from-[#d4af37]/30 via-transparent to-[#d4af37]/20 blur-xl opacity-75" />
 
               {/* Main Image Container */}
-              <div className="relative rounded-3xl overflow-hidden border-2 border-[#d4af37]/40 shadow-[0_20px_60px_rgba(0,0,0,0.9)] bg-[#120f0a]">
+              <div className="relative rounded-3xl overflow-hidden border-2 border-[#d4af37]/50 shadow-[0_20px_60px_rgba(0,0,0,0.8)] bg-[#120f0a]">
                 <img
                   src={heroImg}
-                  alt="Aura Gold Luxury Hair Salon"
-                  className="w-full h-[460px] sm:h-[520px] object-cover object-center transform hover:scale-105 transition-transform duration-700"
-                  onError={(e) => {
-                    // Fallback to high-res salon photo if local file has issue
-                    e.currentTarget.src = "https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=1000&q=80";
-                  }}
+                  alt="Aura Gold Luxury Hair Salon & Styling"
+                  className="w-full h-[480px] sm:h-[540px] object-cover object-top sm:object-center transform hover:scale-102 transition-transform duration-700"
                 />
-                
-                {/* Vignette Overlay */}
-                <div className="absolute inset-0 bg-gradient-to-t from-[#080706] via-transparent to-transparent opacity-80" />
+
+                {/* Subtle bottom shadow gradient to keep caption readable without obscuring image */}
+                <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-[#080706]/80 via-[#080706]/30 to-transparent pointer-events-none" />
 
                 {/* Floating Card at Bottom */}
-                <div className="absolute bottom-4 left-4 right-4 p-4 rounded-2xl bg-[#0c0a07]/90 backdrop-blur-md border border-[#d4af37]/30 flex items-center justify-between">
+                <div className="absolute bottom-4 left-4 right-4 p-3.5 rounded-2xl bg-[#0c0a07]/85 backdrop-blur-md border border-[#d4af37]/35 flex items-center justify-between">
                   <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 rounded-full bg-[#20190e] border border-[#d4af37]/50 flex items-center justify-center">
-                      <Crown className="w-5 h-5 text-[#f5d77f]" />
+                    <div className="w-9 h-9 rounded-full bg-[#20190e] border border-[#d4af37]/50 flex items-center justify-center shrink-0">
+                      <Crown className="w-4 h-4 text-[#f5d77f]" />
                     </div>
                     <div>
-                      <p className="text-xs uppercase tracking-widest text-[#d4af37] font-semibold">Signature Atelier</p>
-                      <p className="text-sm font-medium text-[#f5eed3]">Westcliff-on-Sea, Southend Essex SS0 8AW</p>
+                      <p className="text-[11px] uppercase tracking-widest text-[#d4af37] font-semibold">Signature Atelier</p>
+                      <p className="text-xs sm:text-sm font-medium text-[#f5eed3] line-clamp-1">Westcliff-on-Sea, Essex SS0 8AW</p>
                     </div>
                   </div>
-                  <div className="text-right">
-                    <span className="inline-flex items-center gap-1 text-[11px] text-emerald-400 bg-emerald-950/60 border border-emerald-500/30 px-2 py-0.5 rounded-full">
+                  <div className="text-right shrink-0">
+                    <span className="inline-flex items-center gap-1 text-[11px] text-emerald-400 bg-emerald-950/60 border border-emerald-500/30 px-2 py-0.5 rounded-full font-medium">
                       <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
-                      Open Today
+                      Open
                     </span>
                   </div>
                 </div>
@@ -136,9 +132,9 @@ export default function Hero({ onOpenBooking }) {
               </div>
 
               {/* Floating Award Accent */}
-              <div className="absolute -top-4 -right-4 sm:-right-6 bg-[#18140c]/95 backdrop-blur-md border border-[#d4af37]/50 p-3.5 rounded-2xl shadow-xl flex items-center gap-3">
-                <div className="w-8 h-8 rounded-full bg-[#d4af37]/20 flex items-center justify-center text-[#f5d77f]">
-                  ★
+              <div className="absolute -top-3 -right-3 sm:-right-5 bg-[#18140c]/95 backdrop-blur-md border border-[#d4af37]/50 px-3.5 py-2.5 rounded-2xl shadow-xl flex items-center gap-2.5 z-20">
+                <div className="w-7 h-7 rounded-full bg-[#d4af37]/20 flex items-center justify-center text-[#f5d77f]">
+                  <Star className="w-3.5 h-3.5 fill-[#f5d77f] text-[#f5d77f]" />
                 </div>
                 <div>
                   <div className="text-xs font-bold text-[#f5d77f] font-serif-luxury">No. 1 Luxury Salon</div>
